@@ -26,15 +26,14 @@ p {
 
 img {
     width: 250px;
+    text-align: center;
+    border: dashed 10px white;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: solid 10px white;
+    margin: auto;
 }
 
 div {
-    height: 125px;
+    min-height: 125px;
     padding: 20px;
     border: solid 3px white;
 }
@@ -49,7 +48,7 @@ div {
     background-color: red;
     text-align: right;
     margin-left: 50px;
-    border: 0px 0px 2px 5px;
+    border: solid white 0px 0px 2px 5px;
 }
 
 .blue h2 {
@@ -61,22 +60,22 @@ div {
     text-align: left;
     background-color: blue;
     margin-right: 50px;
-    border: 2px 5px 0px 0px;
+    border: solid white 2px 5px 0px 0px;
 }
 
 .yellow {
     background-color: yellow;
     text-align: right;
     margin-left: 50px;
-    border: 0px 0px 2px 5px;
+    border: solid white 0px 0px 2px 5px;
     color: #707070;
 }
 
 .green {
-    background-color: #00EB00;
+    background-color: #00D800;
     text-align: left;
     margin-right: 50px;
-    border: 2px 5px 0px 0px;
+    border: solid white 2px 5px 0px 0px;
 }
 
 footer {
@@ -91,12 +90,3 @@ footer p {
     padding-right: 15px;
     padding-bottom: 15px;
 }
-
-/*
-Style any paragraphs within the footer with:
-20px text that is aligned to the right.
-Padding of 15px on the top, right, and bottom only. (No padding on the left.)
-
-
-
- */
